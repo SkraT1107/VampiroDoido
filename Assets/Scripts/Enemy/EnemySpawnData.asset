@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507d17c2484c7c340a7f7c029d47a68c, type: 3}
+  m_Name: EnemySpawnData
+  m_EditorClassIdentifier: Assembly-CSharp::EnemySpawnData
+  enemyPrefab: {fileID: 510098517418948028, guid: ce301a1e1c3a3e648a1d1c3d88ee62ec, type: 3}
+  initialCooldown: 2
+  minCooldown: 0.5
+  cooldownDecreaseRate: 0.1
+  EnemysPerSpawm: 1
+  maxEnemysPerSpawn: 4
