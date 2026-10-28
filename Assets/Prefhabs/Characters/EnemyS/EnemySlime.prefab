@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 9156274329357763332}
   - component: {fileID: 2552267027764568342}
   - component: {fileID: -2803602967141136964}
+  - component: {fileID: 765197124569081961}
   m_Layer: 0
   m_Name: EnemySlime
   m_TagString: Untagged
@@ -208,9 +209,11 @@ MonoBehaviour:
   spriteRenderer: {fileID: 7225606597627626379}
   hitMaterial: {fileID: 2100000, guid: d173cb780f49eaa459d2575a83aa4b6f, type: 2}
   flashTime: 0.2
-  XPOrb: {fileID: 1553502217900438977, guid: 74679230d7ae99148804c863f5683f74, type: 3}
+  dieEffect: {fileID: 5580793657195755357, guid: fd8729c148314e845942a0414c767146, type: 3}
+  rigidbody: {fileID: 0}
   hitAnimation: {fileID: 1812269175333645731, guid: 16c1916d6b283f744a52e2a73457af07, type: 3}
   maxLife: 5
+  isKnockback: 0
 --- !u!114 &-2803602967141136964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,3 +227,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   damage: 0.3
+--- !u!50 &765197124569081961
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510098517418948028}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

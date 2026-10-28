@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Weapons
   atackPrefab: {fileID: 8840890421964250772, guid: ebef0e6452c4d794881ecf3be4e0414c, type: 3}
   cooldown: 1
-  dano: 5
+  dano: 2

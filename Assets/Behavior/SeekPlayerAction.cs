@@ -12,8 +12,11 @@ public partial class SeekPlayerAction : Action
 
     private Transform target;
     private Transform self;
+
+    private EnemyHealth enemyHealth;
     protected override Status OnStart()
     {
+        enemyHealth = GameObject.GetComponent<EnemyHealth>();
         target = PlayerControler.Instance.transform;
         self = GameObject.transform;
 
@@ -34,6 +37,10 @@ public partial class SeekPlayerAction : Action
             return Status.Failure;
         }
 
+        if (enemyHealth.isKnockback)
+        {
+            return Status.Running;
+        }
         Vector3 direcao = (target.position - self.position).normalized;
         self.position += direcao * Speed * Time.deltaTime;
 
