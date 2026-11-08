@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Lucas\\VampiroDoido\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\lucas\\vampirodoido\\assets\\scripts\\upgrades\\upgradeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\upgrades\\upgradeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucas\\VampiroDoido\\Assets\\Scripts\\Player\\WeaponControler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\WeaponControler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpgradeSO.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\VampiroDoido\\Assets\\Scripts\\Upgrades\\UpgradeSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Upgrades\\UpgradeSO.cs",
+              "ToolTip": "C:\\Users\\Lucas\\VampiroDoido\\Assets\\Scripts\\Upgrades\\UpgradeSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Upgrades\\UpgradeSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T22:37:40.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeaponControler.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\VampiroDoido\\Assets\\Scripts\\Player\\WeaponControler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\WeaponControler.cs",
+              "ToolTip": "C:\\Users\\Lucas\\VampiroDoido\\Assets\\Scripts\\Player\\WeaponControler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\WeaponControler.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T21:44:01.112Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

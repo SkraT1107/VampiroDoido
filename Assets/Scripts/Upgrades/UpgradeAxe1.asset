@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ef1040730abe84b8db94625bcad1de, type: 3}
+  m_Name: UpgradeAxe1
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeSO
+  icon: {fileID: 9012916727456345564, guid: 1f43945cfe10a274380b5e06c95b2959, type: 3}
+  title: Machado
+  description: Aumenta o dano do Machado em 10%
+  type: 0
+  value: 10
+  targetWeapon: {fileID: 11400000, guid: c6b619db53003d241992804df93fd4a1, type: 2}

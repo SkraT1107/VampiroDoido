@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Enemy\EnemySpawnData.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\GameManeger.cs" />
+    <Compile Include="Assets\Scripts\Upgrades\UpgradeSO.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Itens\XPOrb.cs" />
     <Compile Include="Assets\Scripts\Weapons\DamageDealer.cs" />

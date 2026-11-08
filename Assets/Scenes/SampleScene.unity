@@ -20604,6 +20604,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6987197863148629802, guid: 11758c0ad891e8e429f59a85087e277c, type: 3}
+      propertyPath: weapons.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6987197863148629802, guid: 11758c0ad891e8e429f59a85087e277c, type: 3}
+      propertyPath: weapons.Array.data[0].weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 80733a4d4c7182749bd4ae2b02b45aa9, type: 2}
+    - target: {fileID: 6987197863148629802, guid: 11758c0ad891e8e429f59a85087e277c, type: 3}
+      propertyPath: weapons.Array.data[1].weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: c6b619db53003d241992804df93fd4a1, type: 2}
+    - target: {fileID: 6987197863148629802, guid: 11758c0ad891e8e429f59a85087e277c, type: 3}
+      propertyPath: weapons.Array.data[0].damageMult
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6987197863148629802, guid: 11758c0ad891e8e429f59a85087e277c, type: 3}
+      propertyPath: weapons.Array.data[1].damageMult
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6987197863148629802, guid: 11758c0ad891e8e429f59a85087e277c, type: 3}
+      propertyPath: weapons.Array.data[0].cooldownMult
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6987197863148629802, guid: 11758c0ad891e8e429f59a85087e277c, type: 3}
+      propertyPath: weapons.Array.data[1].cooldownMult
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7102066024365877033, guid: 11758c0ad891e8e429f59a85087e277c, type: 3}
       propertyPath: m_Actions
       value: 

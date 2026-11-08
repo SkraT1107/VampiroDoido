@@ -544,6 +544,7 @@
 "Assets/Scripts/Player/PlayerXP.cs"
 "Assets/Scripts/Player/WeaponControler.cs"
 "Assets/Scripts/UI/HitCanvaPrefhab.cs"
+"Assets/Scripts/Upgrades/UpgradeSO.cs"
 "Assets/Scripts/Weapons/AttackArea.cs"
 "Assets/Scripts/Weapons/AxeProjectile.cs"
 "Assets/Scripts/Weapons/DamageDealer.cs"
